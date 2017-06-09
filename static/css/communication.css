@@ -1,0 +1,79 @@
+ .content-body>.panel{
+    width: 250px;
+    height: 120px;
+    border: 1px solid #999;
+    display: inline-block;
+    margin:20px 0 0 20px;
+    background-color: #f6f6f9;
+    vertical-align: top;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .panel>.panel-top{
+    width: 100%;
+    background-color: #d6d6d6;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+
+  }
+
+  .panel>.panel-top>.panel-name{
+    display: inline-block;
+    width: 175px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .panel>.panel-top>.modify::before{
+    margin-left: 5px;
+    content:'\e64b';
+    cursor: pointer;
+    line-height: 43px;
+      vertical-align: top;
+  }
+
+  .panel>.panel-top>.delete::before{
+    margin-left: 6px;
+    content:'\e692';
+    cursor: pointer;
+    font-size: 21px;
+    line-height: 39px;
+    vertical-align: top;
+  }
+
+  .panel-body{
+    padding:0;
+  }
+
+  .panel-body>.panel-port,
+  .panel-body>.panel-remark{
+    font-size: 16px;
+    padding: 10px 0 0 20px;
+  }
+
+  .panel-body>.panel-remark{
+    width: 230px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  #lastPanel>i::before{
+    font-style:normal;
+    font-family:"iconfont" !important;
+    content: '\e614';
+    font-size: 80px;
+    color: #006db1;
+    display: block;
+    text-align:center;
+    line-height: 107px; 
+    cursor: pointer;
+  }
+
+  .modal-dialog{
+    width: 400px;
+  }

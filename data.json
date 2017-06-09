@@ -1,0 +1,57 @@
+{ 
+  "communicationList": [
+          {
+            "id":"11",
+            "idTemplate": "1",
+            "devTemplate": "传输模板1",
+            "info": "1"
+          },
+          {
+            "id":"22",
+            "idTemplate": "2",
+            "devTemplate": "传输模板2",
+            "info": "2"
+          },
+          {
+            "id":"33",
+            "idTemplate": "3",
+            "devTemplate": "传输模板3",
+            "info": "3"
+          },
+          {
+            "id":"33",
+            "idTemplate": "4",
+            "devTemplate": "传输模板4",
+            "info": "3"
+          }
+   ], 
+  "reportServerList": [
+          {
+            "id": "1",
+            "nameSev": "上报服务1",
+            "addressSev": "192.168.1.106",
+            "portSev": "8080",
+            "timeSev": "5000",
+            "infoSev": "123",
+            "szCode": "123456"
+          },
+          {
+            "id": "2",
+            "nameSev": "上报服务2",
+            "addressSev": "192.168.1.107",
+            "portSev": "8080",
+            "timeSev": "5000",
+            "infoSev": "234",
+            "szCode": "123456"
+          },
+          {
+            "id": "3",
+            "nameSev": "上报服务3",
+            "addressSev": "192.168.1.109",
+            "portSev": "8080",
+            "timeSev": "5000",
+            "infoSev": "456",
+            "szCode": "123456"
+          }
+  ]
+}

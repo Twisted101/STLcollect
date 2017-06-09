@@ -1,0 +1,28 @@
+/*清除bootstrap样式*/
+.nav>li>a{
+	padding:0;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+  background-color: #f1f1f1;
+  border-color: #ddd;
+}
+
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: ">";
+}
+
+.breadcrumb {
+  padding: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: transparent;
+  border-radius: 0;
+}
